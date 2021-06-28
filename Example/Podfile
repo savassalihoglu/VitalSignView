@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VitalSignView_Example' do
+  pod 'VitalSignView', :path => '../'
+
+  target 'VitalSignView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
