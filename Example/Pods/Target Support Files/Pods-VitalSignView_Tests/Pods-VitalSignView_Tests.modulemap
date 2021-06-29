@@ -1,0 +1,6 @@
+framework module Pods_VitalSignView_Tests {
+  umbrella header "Pods-VitalSignView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

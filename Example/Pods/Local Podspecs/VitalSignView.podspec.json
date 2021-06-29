@@ -1,0 +1,22 @@
+{
+  "name": "VitalSignView",
+  "version": "0.1.0",
+  "summary": "A short description of VitalSignView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mustafasavassalihoglu@gmail.com/VitalSignView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mustafasavassalihoglu@gmail.com": "mustafasavassalihoglu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mustafasavassalihoglu@gmail.com/VitalSignView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VitalSignView/Classes/**/*"
+}

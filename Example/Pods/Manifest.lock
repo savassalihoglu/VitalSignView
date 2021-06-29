@@ -1,0 +1,16 @@
+PODS:
+  - VitalSignView (0.1.0)
+
+DEPENDENCIES:
+  - VitalSignView (from `../`)
+
+EXTERNAL SOURCES:
+  VitalSignView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VitalSignView: 1a9858d18263969e126d861a298189768a2f1998
+
+PODFILE CHECKSUM: 48cff0c37ff49b59bdd82d1fdecf741ec026541b
+
+COCOAPODS: 1.10.1

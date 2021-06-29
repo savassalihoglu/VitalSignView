@@ -1,0 +1,6 @@
+framework module VitalSignView {
+  umbrella header "VitalSignView-umbrella.h"
+
+  export *
+  module * { export * }
+}

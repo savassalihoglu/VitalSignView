@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09A6B44B88BFC337A1446FDC45C666E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1BB9E61162B30AA19C0D640B600CFDA9 /* Pods-VitalSignView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5644504DAF0DFA765149F7EFAB927BAA /* Pods-VitalSignView_Tests-dummy.m */; };
+		41FED4AB19047FCEDFA8F0CDD856D554 /* VitalSignView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C38A7CD3D94DCD002BB2B3F6B4C48293 /* VitalSignView-dummy.m */; };
+		500B7184268B36A100C38375 /* VitalSignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500B7183268B36A100C38375 /* VitalSignView.swift */; };
+		672C5B30AC74BF68D5B9D5E8B09A8826 /* Pods-VitalSignView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 681DF2D3F38A2F69C27E27A43C007561 /* Pods-VitalSignView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C872BB63EDF83A5EBE7B31CC7464A08 /* Pods-VitalSignView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7F902AB995A6A3683FDC008796D238 /* Pods-VitalSignView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5C6B00987A976EE22512741229276A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; platformFilter = ios; };
+		B89975F4900165DBD8EFD09E05DBFB48 /* Pods-VitalSignView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC34322A3721E6825DE00E5CE0D576D0 /* Pods-VitalSignView_Example-dummy.m */; };
+		DDCD3414F867257E9B9113B91372D67C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E82BE9485A388F4BB9A0E88E989045F5 /* VitalSignView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A80F53957B9E90BD69AC629C57F796 /* VitalSignView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FB771968FC342D2F2546CE5C6EB8905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56F1CA37F926296206B3BE16B1B56959;
+			remoteInfo = "Pods-VitalSignView_Example";
+		};
+		67B7FF77AA3B32329DC3FB13C27B6DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3500024D9323021DCEC8A9837F9CDA31;
+			remoteInfo = VitalSignView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20FBD8FC2181F6E9E1E703747F0CDE39 /* VitalSignView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VitalSignView.debug.xcconfig; sourceTree = "<group>"; };
+		231C2C48C9A3CD37D2A08524E7B93EDD /* VitalSignView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VitalSignView-prefix.pch"; sourceTree = "<group>"; };
+		26F74515BF04BAACFBF577FC6A126127 /* Pods-VitalSignView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VitalSignView_Example.modulemap"; sourceTree = "<group>"; };
+		2EF3A3C09CC982A4A70DEF09777BEAAD /* Pods-VitalSignView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VitalSignView_Tests.modulemap"; sourceTree = "<group>"; };
+		39B94C108AAFB6BBB86C221593890DFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		40D7329F04EAAD5116B8F8E97349C735 /* VitalSignView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VitalSignView.release.xcconfig; sourceTree = "<group>"; };
+		4D2E3160BEE6392AF0EEAB8F74A5A484 /* Pods-VitalSignView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VitalSignView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		500B7183268B36A100C38375 /* VitalSignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalSignView.swift; sourceTree = "<group>"; };
+		544B47D3B38F06A44D9C880FA2186560 /* Pods-VitalSignView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitalSignView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5644504DAF0DFA765149F7EFAB927BAA /* Pods-VitalSignView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VitalSignView_Tests-dummy.m"; sourceTree = "<group>"; };
+		681DF2D3F38A2F69C27E27A43C007561 /* Pods-VitalSignView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VitalSignView_Example-umbrella.h"; sourceTree = "<group>"; };
+		6A1A9DBDA356AB7A4E984004739CEE01 /* Pods-VitalSignView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitalSignView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		70356B90F67047F5F640F11D96F8BCF2 /* Pods_VitalSignView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitalSignView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7326A59D0B702D88E4F0C0AE8CF7C730 /* Pods_VitalSignView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VitalSignView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD8B882BA8EA887E09883AF281C6D41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		828E7AA6552D6975AA3994D98ED97D6B /* VitalSignView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VitalSignView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A80F53957B9E90BD69AC629C57F796 /* VitalSignView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VitalSignView-umbrella.h"; sourceTree = "<group>"; };
+		94854893D8318FC2103ECC413B84D8EB /* Pods-VitalSignView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitalSignView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F64A94FFE3DB361B1CDF64745AB3519 /* Pods-VitalSignView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VitalSignView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2B2F6BE4CEE4FAE2388EB5ED072C6AE /* Pods-VitalSignView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VitalSignView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B867C0787C2136F0B37C2C7C6BAEEB69 /* VitalSignView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VitalSignView-Info.plist"; sourceTree = "<group>"; };
+		C1185DA297FAABDD442AF4CA2C474364 /* VitalSignView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VitalSignView.modulemap; sourceTree = "<group>"; };
+		C38A7CD3D94DCD002BB2B3F6B4C48293 /* VitalSignView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VitalSignView-dummy.m"; sourceTree = "<group>"; };
+		CD7F902AB995A6A3683FDC008796D238 /* Pods-VitalSignView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VitalSignView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D63C72BB073626CD43A4CC1093394621 /* Pods-VitalSignView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VitalSignView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E55013C1B3EC23FDED8B74CD909BA052 /* VitalSignView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VitalSignView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E8794CE0DF64FED88EEAAB85F8FBE59F /* Pods-VitalSignView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VitalSignView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC34322A3721E6825DE00E5CE0D576D0 /* Pods-VitalSignView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VitalSignView_Example-dummy.m"; sourceTree = "<group>"; };
+		ED7BD77D545D7696A988FA3854FE028C /* Pods-VitalSignView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VitalSignView_Example-Info.plist"; sourceTree = "<group>"; };
+		F82435954378B8F2B2BDB42544590257 /* Pods-VitalSignView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VitalSignView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F99C62191573CB9D73A2DA90FAB67A39 /* Pods-VitalSignView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VitalSignView_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F37490297DBCE8D3C08D075FE4EACBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A6B44B88BFC337A1446FDC45C666E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4D45C499450823D21085A49D9762D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCD3414F867257E9B9113B91372D67C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED82A62A668B0E06F00E40A41F3A83EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5C6B00987A976EE22512741229276A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B9BCA64F8D17593291184CBDE60BD3 /* Pods-VitalSignView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				26F74515BF04BAACFBF577FC6A126127 /* Pods-VitalSignView_Example.modulemap */,
+				4D2E3160BEE6392AF0EEAB8F74A5A484 /* Pods-VitalSignView_Example-acknowledgements.markdown */,
+				F82435954378B8F2B2BDB42544590257 /* Pods-VitalSignView_Example-acknowledgements.plist */,
+				EC34322A3721E6825DE00E5CE0D576D0 /* Pods-VitalSignView_Example-dummy.m */,
+				D63C72BB073626CD43A4CC1093394621 /* Pods-VitalSignView_Example-frameworks.sh */,
+				ED7BD77D545D7696A988FA3854FE028C /* Pods-VitalSignView_Example-Info.plist */,
+				681DF2D3F38A2F69C27E27A43C007561 /* Pods-VitalSignView_Example-umbrella.h */,
+				94854893D8318FC2103ECC413B84D8EB /* Pods-VitalSignView_Example.debug.xcconfig */,
+				544B47D3B38F06A44D9C880FA2186560 /* Pods-VitalSignView_Example.release.xcconfig */,
+			);
+			name = "Pods-VitalSignView_Example";
+			path = "Target Support Files/Pods-VitalSignView_Example";
+			sourceTree = "<group>";
+		};
+		15DC553EA452908A72BA83664D2CAC35 /* VitalSignView */ = {
+			isa = PBXGroup;
+			children = (
+				500B717F268B118700C38375 /* Source */,
+				B8E7F5F8B84DCAC11E7D379DF8FDB00E /* Pod */,
+				C3DCC38BC2C69541B66279F044414AA5 /* Support Files */,
+			);
+			name = VitalSignView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		27859CE31C4F7AEC9E3D3E4C52B8CBE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15DC553EA452908A72BA83664D2CAC35 /* VitalSignView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		42C6FC580938A45A098AA939A3525214 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02B9BCA64F8D17593291184CBDE60BD3 /* Pods-VitalSignView_Example */,
+				5EB9082532DBCC8EC308A7365CBE38AE /* Pods-VitalSignView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		500B717F268B118700C38375 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				500B7183268B36A100C38375 /* VitalSignView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5EB9082532DBCC8EC308A7365CBE38AE /* Pods-VitalSignView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF3A3C09CC982A4A70DEF09777BEAAD /* Pods-VitalSignView_Tests.modulemap */,
+				9F64A94FFE3DB361B1CDF64745AB3519 /* Pods-VitalSignView_Tests-acknowledgements.markdown */,
+				E8794CE0DF64FED88EEAAB85F8FBE59F /* Pods-VitalSignView_Tests-acknowledgements.plist */,
+				5644504DAF0DFA765149F7EFAB927BAA /* Pods-VitalSignView_Tests-dummy.m */,
+				F99C62191573CB9D73A2DA90FAB67A39 /* Pods-VitalSignView_Tests-Info.plist */,
+				CD7F902AB995A6A3683FDC008796D238 /* Pods-VitalSignView_Tests-umbrella.h */,
+				6A1A9DBDA356AB7A4E984004739CEE01 /* Pods-VitalSignView_Tests.debug.xcconfig */,
+				B2B2F6BE4CEE4FAE2388EB5ED072C6AE /* Pods-VitalSignView_Tests.release.xcconfig */,
+			);
+			name = "Pods-VitalSignView_Tests";
+			path = "Target Support Files/Pods-VitalSignView_Tests";
+			sourceTree = "<group>";
+		};
+		B8E7F5F8B84DCAC11E7D379DF8FDB00E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39B94C108AAFB6BBB86C221593890DFB /* LICENSE */,
+				7DD8B882BA8EA887E09883AF281C6D41 /* README.md */,
+				E55013C1B3EC23FDED8B74CD909BA052 /* VitalSignView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C3DCC38BC2C69541B66279F044414AA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1185DA297FAABDD442AF4CA2C474364 /* VitalSignView.modulemap */,
+				C38A7CD3D94DCD002BB2B3F6B4C48293 /* VitalSignView-dummy.m */,
+				B867C0787C2136F0B37C2C7C6BAEEB69 /* VitalSignView-Info.plist */,
+				231C2C48C9A3CD37D2A08524E7B93EDD /* VitalSignView-prefix.pch */,
+				90A80F53957B9E90BD69AC629C57F796 /* VitalSignView-umbrella.h */,
+				20FBD8FC2181F6E9E1E703747F0CDE39 /* VitalSignView.debug.xcconfig */,
+				40D7329F04EAAD5116B8F8E97349C735 /* VitalSignView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VitalSignView";
+			sourceTree = "<group>";
+		};
+		CD44BFAE40D398B4644EB16543A6C237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7326A59D0B702D88E4F0C0AE8CF7C730 /* Pods_VitalSignView_Example.framework */,
+				70356B90F67047F5F640F11D96F8BCF2 /* Pods_VitalSignView_Tests.framework */,
+				828E7AA6552D6975AA3994D98ED97D6B /* VitalSignView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				27859CE31C4F7AEC9E3D3E4C52B8CBE1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CD44BFAE40D398B4644EB16543A6C237 /* Products */,
+				42C6FC580938A45A098AA939A3525214 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		24F0E9AE5E6867ED310AADD226A60C0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82BE9485A388F4BB9A0E88E989045F5 /* VitalSignView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89290CA49837E5AD803FB392D6C80992 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672C5B30AC74BF68D5B9D5E8B09A8826 /* Pods-VitalSignView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6AB1170EBC50B164ED784F118C92B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C872BB63EDF83A5EBE7B31CC7464A08 /* Pods-VitalSignView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3500024D9323021DCEC8A9837F9CDA31 /* VitalSignView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A756D2D8CD7ADDA33CFC19B34B565B /* Build configuration list for PBXNativeTarget "VitalSignView" */;
+			buildPhases = (
+				24F0E9AE5E6867ED310AADD226A60C0B /* Headers */,
+				E2AAAE885999FDB7858C3ECF33388959 /* Sources */,
+				ED82A62A668B0E06F00E40A41F3A83EE /* Frameworks */,
+				9A26D09137E321C987CFF703942A79CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VitalSignView;
+			productName = VitalSignView;
+			productReference = 828E7AA6552D6975AA3994D98ED97D6B /* VitalSignView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		56F1CA37F926296206B3BE16B1B56959 /* Pods-VitalSignView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8FF35BE5F1707DF1CF37414D561C58C /* Build configuration list for PBXNativeTarget "Pods-VitalSignView_Example" */;
+			buildPhases = (
+				89290CA49837E5AD803FB392D6C80992 /* Headers */,
+				2584E0E59A44916A826C602C29CFE0E0 /* Sources */,
+				9A4D45C499450823D21085A49D9762D3 /* Frameworks */,
+				5F1FEC14A6DEE36EC1B2524D663B3232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D591D014957CA5668F60F0DF0096103 /* PBXTargetDependency */,
+			);
+			name = "Pods-VitalSignView_Example";
+			productName = "Pods-VitalSignView_Example";
+			productReference = 7326A59D0B702D88E4F0C0AE8CF7C730 /* Pods_VitalSignView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFBD9D860CB00A806F96BF22C941625E /* Pods-VitalSignView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6639BFE66F758682494154DA5610A632 /* Build configuration list for PBXNativeTarget "Pods-VitalSignView_Tests" */;
+			buildPhases = (
+				BE6AB1170EBC50B164ED784F118C92B6 /* Headers */,
+				3325812F120E22F93A05EA81B6EB1A73 /* Sources */,
+				3F37490297DBCE8D3C08D075FE4EACBE /* Frameworks */,
+				65CDA9B7BE6666A55CA4BE4581086469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F7184817A3CF2C83D282F66EDAACCD2 /* PBXTargetDependency */,
+			);
+			name = "Pods-VitalSignView_Tests";
+			productName = "Pods-VitalSignView_Tests";
+			productReference = 70356B90F67047F5F640F11D96F8BCF2 /* Pods_VitalSignView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					3500024D9323021DCEC8A9837F9CDA31 = {
+						LastSwiftMigration = 1250;
+					};
+					56F1CA37F926296206B3BE16B1B56959 = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD44BFAE40D398B4644EB16543A6C237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3500024D9323021DCEC8A9837F9CDA31 /* VitalSignView */,
+				56F1CA37F926296206B3BE16B1B56959 /* Pods-VitalSignView_Example */,
+				FFBD9D860CB00A806F96BF22C941625E /* Pods-VitalSignView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1FEC14A6DEE36EC1B2524D663B3232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65CDA9B7BE6666A55CA4BE4581086469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A26D09137E321C987CFF703942A79CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2584E0E59A44916A826C602C29CFE0E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89975F4900165DBD8EFD09E05DBFB48 /* Pods-VitalSignView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3325812F120E22F93A05EA81B6EB1A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB9E61162B30AA19C0D640B600CFDA9 /* Pods-VitalSignView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2AAAE885999FDB7858C3ECF33388959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				500B7184268B36A100C38375 /* VitalSignView.swift in Sources */,
+				41FED4AB19047FCEDFA8F0CDD856D554 /* VitalSignView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D591D014957CA5668F60F0DF0096103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VitalSignView;
+			target = 3500024D9323021DCEC8A9837F9CDA31 /* VitalSignView */;
+			targetProxy = 67B7FF77AA3B32329DC3FB13C27B6DB2 /* PBXContainerItemProxy */;
+		};
+		6F7184817A3CF2C83D282F66EDAACCD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VitalSignView_Example";
+			target = 56F1CA37F926296206B3BE16B1B56959 /* Pods-VitalSignView_Example */;
+			targetProxy = 2FB771968FC342D2F2546CE5C6EB8905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056F0E34D3D805F518256FAAD5C3B493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A1A9DBDA356AB7A4E984004739CEE01 /* Pods-VitalSignView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VitalSignView_Tests/Pods-VitalSignView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitalSignView_Tests/Pods-VitalSignView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12FD2C3A1E604C57C365E801E8632FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B2F6BE4CEE4FAE2388EB5ED072C6AE /* Pods-VitalSignView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VitalSignView_Tests/Pods-VitalSignView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitalSignView_Tests/Pods-VitalSignView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92C617A6EB87FD756749F094A4F3B7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FBD8FC2181F6E9E1E703747F0CDE39 /* VitalSignView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VitalSignView/VitalSignView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VitalSignView/VitalSignView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VitalSignView/VitalSignView.modulemap";
+				PRODUCT_MODULE_NAME = VitalSignView;
+				PRODUCT_NAME = VitalSignView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA6672AB954C944EABB636FA54E958DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94854893D8318FC2103ECC413B84D8EB /* Pods-VitalSignView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VitalSignView_Example/Pods-VitalSignView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitalSignView_Example/Pods-VitalSignView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CB7B6CF5AE5C25BAACEB13251B00128D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 544B47D3B38F06A44D9C880FA2186560 /* Pods-VitalSignView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VitalSignView_Example/Pods-VitalSignView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VitalSignView_Example/Pods-VitalSignView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA9F0AF34C7498A52A45F8DD5C6E678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40D7329F04EAAD5116B8F8E97349C735 /* VitalSignView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VitalSignView/VitalSignView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VitalSignView/VitalSignView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VitalSignView/VitalSignView.modulemap";
+				PRODUCT_MODULE_NAME = VitalSignView;
+				PRODUCT_NAME = VitalSignView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6639BFE66F758682494154DA5610A632 /* Build configuration list for PBXNativeTarget "Pods-VitalSignView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056F0E34D3D805F518256FAAD5C3B493 /* Debug */,
+				12FD2C3A1E604C57C365E801E8632FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A756D2D8CD7ADDA33CFC19B34B565B /* Build configuration list for PBXNativeTarget "VitalSignView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92C617A6EB87FD756749F094A4F3B7EB /* Debug */,
+				FEA9F0AF34C7498A52A45F8DD5C6E678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8FF35BE5F1707DF1CF37414D561C58C /* Build configuration list for PBXNativeTarget "Pods-VitalSignView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6672AB954C944EABB636FA54E958DE /* Debug */,
+				CB7B6CF5AE5C25BAACEB13251B00128D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

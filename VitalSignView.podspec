@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'VitalSignView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VitalSignView.'
+  s.summary          = 'Vitalsignview is a component for drawing continues sign like medical monitors display in IOS devices'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
-  s.homepage         = 'https://github.com/mustafasavassalihoglu@gmail.com/VitalSignView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/savassalihoglu/VitalSignView.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mustafasavassalihoglu@gmail.com' => 'mustafasavassalihoglu@gmail.com' }
-  s.source           = { :git => 'https://github.com/mustafasavassalihoglu@gmail.com/VitalSignView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'VitalSignView/Classes/**/*'
+  s.author           = { 'Savaş Salihoğlu' => 'mustafasavassalihoglu@gmail.com' }
+  s.source           = { :git => 'https://github.com/savassalihoglu/VitalSignView.git',  :tag => "#{s.version}" }
   
-  # s.resource_bundles = {
-  #   'VitalSignView' => ['VitalSignView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '14.5'
+
+  s.source_files = 'Source/**/*.swift'
+  
+  
+
 end
